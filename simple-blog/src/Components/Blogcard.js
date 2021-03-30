@@ -1,6 +1,7 @@
 const Blogcard = (props) =>
 {
     return (
+
         <section className="myLife">
             {props.data.map((item, index) =>
             (
@@ -16,6 +17,7 @@ const Blogcard = (props) =>
             ))}
 
         </section>
+
     );
 }
 
