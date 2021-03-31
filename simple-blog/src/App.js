@@ -6,28 +6,17 @@ import
   Route,
   Link
 } from "react-router-dom";
-import Blogdata from "./Blogdata";
-import Blogcard from "./Components/Blogcard";
+import Blogdata from './Components/Blogdata';
+import Header from './Components/Header';
 
-export default function App()
+function App()
 {
   return (
-
-    <Router>
-      <div className="App">
-        <Link />
-        <Blogcard data={Blogdata}></Blogcard>
-
-        <Switch>
-
-          <Route path="/"></Route>
-          <Route path="/blog"></Route>
-          <Route path="/contact"></Route>
-
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+      <Header />
+      <Blogdata data={Blogcard}></Blogdata>
+    </div>
   );
 }
 
-
+export default App;
