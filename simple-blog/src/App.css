@@ -1,0 +1,64 @@
+/* home */
+body {
+  width: 1200px;
+  height: 696px; 
+}
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: #0D4625;
+}
+header h1 {
+  padding-left: 3rem;
+}
+.home h1 {
+  color: #0D4625;
+  margin-left: 20rem;
+  width: 15rem;
+  margin-top: 6rem;
+  font-weight: 700;
+}
+.home button {
+  margin-left: 20rem;
+  width: 6rem;
+  height: 2rem;
+  color: #219653;
+  background-color: unset;
+  border: 2px solid #219653;
+  border-radius: 5px;
+}
+.home img {
+  width: 100%;
+}
+ul {
+  display: flex;
+  align-items: center;
+
+}
+li {
+  display: flex;
+  margin-right: 1rem;
+  align-items: center;
+
+}
+a {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: #0D4625;
+  font-size: bold;
+}
+/* blog */
+
+.myLife {
+  display: flex;
+  padding-top: 5rem;
+}
+.titles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+}
